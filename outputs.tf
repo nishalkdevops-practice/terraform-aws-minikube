@@ -27,3 +27,6 @@ output "kubeconfig_ip" {
   value       = "/home/centos/kubeconfig_ip"
 }
 
+output "ami_id" {
+    value = data.aws_ami.devops_ami.id
+}

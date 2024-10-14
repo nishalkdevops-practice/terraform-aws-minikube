@@ -42,7 +42,7 @@ variable "hosted_zone_private" {
 
 variable "ami_image_id" {
   description = "ID of the AMI image which should be used. If empty, the latest CentOS 7 image will be used. See README.md for AMI image requirements."
-  default     = ""
+  default     = "ami-0b4f379183e5706b9"
 }
 
 variable "ssh_access_cidr" {
